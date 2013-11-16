@@ -1,0 +1,4 @@
+# Ocaml build files
+_build
+*.byte
+*.opt
