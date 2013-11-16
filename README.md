@@ -1,3 +1,3 @@
 Two Variable Linear Regression
 ===============
-Solves two variable linear regression in Ocaml.
+Solves two variable linear regression in OCaml.
