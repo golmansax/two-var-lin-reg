@@ -1,3 +1,3 @@
-two-var-lin-reg
+Two Variable Linear Regression
 ===============
-Solves two variable linear regression.
+Solves two variable linear regression in Ocaml.
