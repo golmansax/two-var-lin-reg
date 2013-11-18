@@ -30,7 +30,7 @@ module Two_var_lin_reg = struct
     b2: float;
   }
 
-  let print lin_reg_coeffs = Printf.printf "a: %.2f, b1: %.2f, b2: %.2f\n"
+  let print lin_reg_coeffs = Printf.printf "a: %.6f, b1: %.6f, b2: %.6f\n"
     lin_reg_coeffs.a lin_reg_coeffs.b1 lin_reg_coeffs.b2
 
   let solve points =
@@ -65,7 +65,6 @@ module Two_var_lin_reg = struct
     let mean_from_sum sum = sum /. !num_points in
     let mean_x1 = mean_from_sum !sum_x1 in
     let mean_x2 = mean_from_sum !sum_x2 in
-    Printf.printf "Means %f %f\n" mean_x1 mean_x2;
     let a = (mean_from_sum !sum_y) -. b1 *. mean_x1 -. b2 *. mean_x2 in
     { a = a; b1 = b1; b2 = b2 }
 end
