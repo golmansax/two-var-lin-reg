@@ -1,0 +1,3 @@
+[submodule "lib/ocaml-matrix"]
+	path = lib/ocaml-matrix
+	url = https://github.com/golmansax/ocaml-matrix.git
